@@ -19,7 +19,7 @@ const Fullpage = () => (
               <img className="icon" src={icon3} alt="logo" />
               <br></br>
               <span className="button" onClick={() => fullpageApi.moveSectionDown()}>
-                Click Me
+              Swipe
               </span>
             </div>
             <div className="section page2">
