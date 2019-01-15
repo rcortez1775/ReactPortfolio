@@ -12,7 +12,6 @@ h2 {
 
 .page1 {
   background-color: #ececec;
-
 }
 
 .page2 {
@@ -20,7 +19,7 @@ h2 {
 }
 
 .page3 {
-  background-color: #90ccf4;
+  background-color: #5da2d5;
 }
 
 .icon {
@@ -57,8 +56,16 @@ img.vert-move {
   font-size: 20px;
 }
 
+.experience {
+  color: #e85a4f;
+}
+
 .pokedex {
   height: 640px;
   margin: auto;
   font-family: 'Quicksand', sans-serif;
+}
+
+.about {
+  color: #ececec;
 }

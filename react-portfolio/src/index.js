@@ -25,10 +25,10 @@ const Fullpage = () => (
               </span>
             </div>
             <div className="section page2">
-              <h2>Experience</h2>
+              <h2 className="experience">Experience</h2>
                     <div className="slide" data-anchor="slide1"> 
                     <div className="pokedex">
-                    <h3>MyPokedex</h3>
+                    <h3 className="main">MyPokedex</h3>
                     <p className="title">The App:</p>
                     <p className="title">The Code:</p>
                     <p className="title">Technologies:</p>
@@ -72,7 +72,7 @@ const Fullpage = () => (
                     </div>
                 </div>
             <div className="section page3">
-            <h2>About Me</h2>
+            <h2 className="about">About Me</h2>
             </div>
           </ReactFullpage.Wrapper>
         );
