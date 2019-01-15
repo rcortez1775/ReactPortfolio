@@ -34,9 +34,42 @@ const Fullpage = () => (
                     <p className="title">Technologies:</p>
                     </div>
                     </div>
-	                <div className="slide" data-anchor="slide2"> Slide 2 </div>
-	                <div className="slide" data-anchor="slide3"> Slide 3 </div>
-	                <div className="slide" data-anchor="slide4"> Slide 4 </div>
+
+	                <div className="slide" data-anchor="slide2"> 
+                    <div className="pokedex">
+                    <h3>MyCodeCard</h3>
+                    <p className="title">The App:</p>
+                    <p className="title">The Code:</p>
+                    <p className="title">Technologies:</p>
+                    </div>
+                    </div>
+
+	                <div className="slide" data-anchor="slide3">
+                    <div className="pokedex">
+                    <h3>CircleOfFriends</h3>
+                    <p className="title">The App:</p>
+                    <p className="title">The Code:</p>
+                    <p className="title">Technologies:</p>
+                    </div>
+                    </div>
+
+	                <div className="slide" data-anchor="slide4">
+                    <div className="pokedex">
+                    <h3>To-DoList</h3>
+                    <p className="title">The App: </p>
+                    <p className="title">The Code:</p>
+                    <p className="title">Technologies:</p>
+                    </div>
+                    </div>
+
+                    <div className="slide" data-anchor="slide5">
+                    <div className="pokedex">
+                    <h3>DoomsdayDatabase</h3>
+                    <p className="title">The App: </p>
+                    <p className="title">The Code:</p>
+                    <p className="title">Technologies:</p>
+                    </div>
+                    </div>
                 </div>
             <div className="section page3">
             <h2>About Me</h2>

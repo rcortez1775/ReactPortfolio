@@ -4,7 +4,6 @@ h2 {
   color: #1d1d1d;
   font-family: 'Amatic SC', cursive;
   margin: 0;
-
 }
 
 .fp-section {
@@ -55,9 +54,11 @@ img.vert-move {
 }
 
 .title {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .pokedex {
-  margin-top: 0;
+  height: 640px;
+  margin: auto;
+  font-family: 'Quicksand', sans-serif;
 }
