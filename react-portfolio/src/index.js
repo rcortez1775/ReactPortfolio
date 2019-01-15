@@ -7,6 +7,7 @@ import icon1 from '../src/assets/LinkedIn.png';
 import icon2 from '../src/assets/github.png';
 import icon3 from '../src/assets/Facebook.png';
 import arrow from '../src/assets/arrow.png';
+import ash from '../src/assets/ash.jpg';
 
 
 const Fullpage = () => (
@@ -26,7 +27,8 @@ const Fullpage = () => (
             </div>
             <div className="section page2">
               <h2 className="experience">Experience</h2>
-                    <div className="slide" data-anchor="slide1"> 
+                    <div className="slide pokeslide" data-anchor="slide1"> 
+                    <img src={ash} alt="ash" className="ash"></img>
                     <div className="pokedex">
                     <h3 className="main">MyPokedex</h3>
                     <p className="title">The App:</p>

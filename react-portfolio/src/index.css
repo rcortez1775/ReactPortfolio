@@ -60,20 +60,17 @@ img.vert-move {
   font-size: 20px;
 }
 
-.experience {
-  color: #e85a4f;
-}
-
 .pokedex {
   height: 640px;
   margin: auto;
   font-family: 'Quicksand', sans-serif;
 }
 
-.about {
-  color: #ececec;
-}
-
-.resume {
-  color: #e85a4f;
+.ash {
+  border-radius: 50%;
+    width: 225px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 5px solid #1d1d1d;
+    float: none;
+    margin-left: 25px;
 }
