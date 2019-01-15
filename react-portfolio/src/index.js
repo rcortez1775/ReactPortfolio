@@ -72,6 +72,9 @@ const Fullpage = () => (
                     </div>
                 </div>
             <div className="section page3">
+            <h2 className="resume">Resume</h2>
+            </div>
+            <div className="section page4">
             <h2 className="about">About Me</h2>
             </div>
           </ReactFullpage.Wrapper>
