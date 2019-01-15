@@ -1,12 +1,11 @@
-p {
+h2 {
   font-size: 11em;
   text-align: center;
   color: #1d1d1d;
   font-family: 'Amatic SC', cursive;
   margin: 0;
+
 }
-
-
 
 .fp-section {
   text-align: center;
@@ -55,9 +54,10 @@ img.vert-move {
   100% { transform: translateY(-10px); }
 }
 
-.card {
-  height: 20%;
-  width: 50%;
-  margin: auto;
-  padding-top: 0;
+.title {
+  font-size: 30px;
+}
+
+.pokedex {
+  margin-top: 0;
 }

@@ -7,7 +7,6 @@ import icon1 from '../src/assets/LinkedIn.png';
 import icon2 from '../src/assets/github.png';
 import icon3 from '../src/assets/Facebook.png';
 import arrow from '../src/assets/arrow.png';
-import {Card, CardTitle} from 'react-materialize'
 
 
 const Fullpage = () => (
@@ -16,7 +15,7 @@ const Fullpage = () => (
         return (
           <ReactFullpage.Wrapper>
             <div className="section page1">
-              <p>Robert Cortez</p>
+              <h2 className="name">Robert Cortez</h2>
               <img className="icon" src={icon1} alt="logo" />
               <img className="icon" src={icon2} alt="logo" />
               <img className="icon" src={icon3} alt="logo" />
@@ -26,21 +25,21 @@ const Fullpage = () => (
               </span>
             </div>
             <div className="section page2">
-              <p>Experience</p>
-                    <div class="slide" data-anchor="slide1"> 
-                    <div>
-                    <Card class="card" header={<CardTitle reveal image={"img/office.jpg"} waves='light'/>}
-                        title="Card Title"reveal={<p>Here is some more information about this product that is only revealed once clicked on.</p>}>
-    <                   p><a href="https://github.com/rcortez1775/MyPokeDex">This is a link</a></p>
-                    </Card>
+              <h2>Experience</h2>
+                    <div className="slide" data-anchor="slide1"> 
+                    <div className="pokedex">
+                    <h3>MyPokedex</h3>
+                    <p className="title">The App:</p>
+                    <p className="title">The Code:</p>
+                    <p className="title">Technologies:</p>
                     </div>
                     </div>
-	                <div class="slide" data-anchor="slide2"> Slide 2 </div>
-	                <div class="slide" data-anchor="slide3"> Slide 3 </div>
-	                <div class="slide" data-anchor="slide4"> Slide 4 </div>
+	                <div className="slide" data-anchor="slide2"> Slide 2 </div>
+	                <div className="slide" data-anchor="slide3"> Slide 3 </div>
+	                <div className="slide" data-anchor="slide4"> Slide 4 </div>
                 </div>
             <div className="section page3">
-            <p>About Me</p>
+            <h2>About Me</h2>
             </div>
           </ReactFullpage.Wrapper>
         );
