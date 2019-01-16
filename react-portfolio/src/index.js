@@ -77,6 +77,14 @@ const Fullpage = () => (
                 </div>
             <div className="section page3">
             <h2 className="resume">Resume</h2>
+            <div className="qual">
+                <h4>Qualifications</h4>
+                <p>Knowledge in JavaScript, HTML, CSS, React.js, Heroku, Git, Node.js and Databases. 
+                    Experience in object-oriented programming; developing, testing and debugging code; 
+                    designing interfaces; and administering systems and networks. Experience with Sales 
+                    and Operation procedures and systems.
+                </p>
+            </div>
             </div>
             <div className="section page4">
             <h2 className="about">About Me</h2>
