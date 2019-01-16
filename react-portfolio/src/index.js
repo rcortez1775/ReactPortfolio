@@ -7,8 +7,11 @@ import icon1 from '../src/assets/LinkedIn.png';
 import icon2 from '../src/assets/github.png';
 import icon3 from '../src/assets/Facebook.png';
 import arrow from '../src/assets/arrow.png';
-import ash from '../src/assets/ash.jpg';
-
+import poke from '../src/assets/poke.jpg';
+import codecard from '../src/assets/mycode.jpg';
+import circle from '../src/assets/circleof.jpg';
+import earth from '../src/assets/earth.jpg';
+import list from '../src/assets/list.jpg';
 
 const Fullpage = () => (
     <ReactFullpage
@@ -28,9 +31,8 @@ const Fullpage = () => (
             <div className="section page2">
               <h2 className="experience">Experience</h2>
                     <div className="slide pokeslide" data-anchor="slide1"> 
-                    <img src={ash} alt="ash" className="ash"></img>
+                    <img src={poke} alt="ash" className="ash"></img>
                     <div className="pokedex">
-                    <h3 className="main">MyPokedex</h3>
                     <p className="title">The App:</p>
                     <p className="title">The Code:</p>
                     <p className="title">Technologies:</p>
@@ -38,8 +40,8 @@ const Fullpage = () => (
                     </div>
 
 	                <div className="slide" data-anchor="slide2"> 
+                    <img src={codecard} alt="code" className="ash"></img>
                     <div className="pokedex">
-                    <h3>MyCodeCard</h3>
                     <p className="title">The App:</p>
                     <p className="title">The Code:</p>
                     <p className="title">Technologies:</p>
@@ -47,8 +49,8 @@ const Fullpage = () => (
                     </div>
 
 	                <div className="slide" data-anchor="slide3">
+                    <img src={circle} alt="code" className="ash"></img>
                     <div className="pokedex">
-                    <h3>CircleOfFriends</h3>
                     <p className="title">The App:</p>
                     <p className="title">The Code:</p>
                     <p className="title">Technologies:</p>
@@ -56,8 +58,8 @@ const Fullpage = () => (
                     </div>
 
 	                <div className="slide" data-anchor="slide4">
+                    <img src={list} alt="list" className="ash"></img>
                     <div className="pokedex">
-                    <h3>To-DoList</h3>
                     <p className="title">The App: </p>
                     <p className="title">The Code:</p>
                     <p className="title">Technologies:</p>
@@ -65,8 +67,8 @@ const Fullpage = () => (
                     </div>
 
                     <div className="slide" data-anchor="slide5">
+                    <img src={earth} alt="earth" className="ash"></img>
                     <div className="pokedex">
-                    <h3>DoomsdayDatabase</h3>
                     <p className="title">The App: </p>
                     <p className="title">The Code:</p>
                     <p className="title">Technologies:</p>
