@@ -84,6 +84,12 @@ const Fullpage = () => (
                     designing interfaces; and administering systems and networks. Experience with Sales 
                     and Operation procedures and systems.
                 </p>
+                <h4>Education & Military Service</h4>
+                <p>UC Irvine coding bootcamp Sabio coding pre-work CodeAcademy & Udemy
+Diamond Bar High School
+U.S. Marine Corps 08.2005-09.2007
+4.2018-7.2018 1.2018-2.2018 11.2017-Present
+1.2001-6.2005</p>
             </div>
             </div>
             <div className="section page4">
