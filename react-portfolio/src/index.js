@@ -12,6 +12,7 @@ import codecard from '../src/assets/mycode.jpg';
 import circle from '../src/assets/circleof.jpg';
 import earth from '../src/assets/earth.jpg';
 import list from '../src/assets/list.jpg';
+import me from '../src/assets/me.jpg';
 
 const Fullpage = () => (
     <ReactFullpage
@@ -86,14 +87,47 @@ const Fullpage = () => (
                 </p>
                 <h4>Education & Military Service</h4>
                 <p>UC Irvine coding bootcamp Sabio coding pre-work CodeAcademy & Udemy
-Diamond Bar High School
-U.S. Marine Corps 08.2005-09.2007
-4.2018-7.2018 1.2018-2.2018 11.2017-Present
-1.2001-6.2005</p>
+                    Diamond Bar High School
+                    U.S. Marine Corps 08.2005-09.2007
+                    4.2018-7.2018 1.2018-2.2018 11.2017-Present
+                    1.2001-6.2005</p>
             </div>
             </div>
             <div className="section page4">
             <h2 className="about">About Me</h2>
+            <div className="aboutMe">
+            <img src={me} alt="ash" className="me"></img>
+            
+                <p>I'm Robert Cortez. Fellow Coder and United States Marine
+                    Corps Veteran. After working within a tech start-up
+                    in sales and operations, I've wanted to understand the "behind the scenes" of tech. That pushed me
+                    to
+                    complete free online courses but left me wanting a better grasp of these high level concepts. I
+                    wanted
+                    a more suited environment of like minded individuals to learn by creation. That's when I began my
+                    bootcamp
+                    search.
+                </p>
+                <p>Fast forward a year, I completed the Coding Bootcamp at
+                    the University of California Irvine. A challenging
+                    coding course that demanded constant self-education to push the boundaries of what I knew on any
+                    given
+                    day. Working in teams and led by amazing instructors, I was able to gain a deeper understanding of
+                    development
+                    and create some pretty awesome projects. Though my knowledge is a tiny seed buried deep beneath the
+                    many
+                    layers of information, with constant nurturing, it will soon sprout.
+                </p>
+                <p>Away from the computer, I enjoy playing with my recently
+                    rescued dog, Boba Fett and capturing the objective
+                    in Overwatch or attempting to pilot a helicopter in Call of Duty. If you can't find me online I may
+                    be
+                    out on the water kayaking or lifting weights to fit in with the cool kids. I am very excited to
+                    pursue
+                    development and I look forward to all the things I can build and learn from.
+                </p>
+            
+            </div>
             </div>
           </ReactFullpage.Wrapper>
         );

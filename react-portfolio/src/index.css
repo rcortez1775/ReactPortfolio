@@ -68,10 +68,10 @@ img.vert-move {
 
 .ash {
   border-radius: 50%;
-    width: 225px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    float: none;
-    margin-left: 25px;
+  width: 225px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: none;
+  margin-left: 25px;
 }
 
 .qual {
@@ -80,4 +80,20 @@ img.vert-move {
   font-family: 'Quicksand', sans-serif;
   width: 80%;
   font-size: 20px;
+}
+
+.aboutMe {
+  height: 640px;
+  margin: auto;
+  font-family: 'Quicksand', sans-serif;
+  width: 80%;
+  font-size: 20px;
+  text-align: left;
+}
+
+.me {
+  width: 225px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  float: right;
+  margin-left: 25px;
 }
