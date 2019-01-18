@@ -118,15 +118,6 @@ const Fullpage = () => (
                     many
                     layers of information, with constant nurturing, it will soon sprout.
                 </p>
-                <p>Away from the computer, I enjoy playing with my recently
-                    rescued dog, Boba Fett and capturing the objective
-                    in Overwatch or attempting to pilot a helicopter in Call of Duty. If you can't find me online I may
-                    be
-                    out on the water kayaking or lifting weights to fit in with the cool kids. I am very excited to
-                    pursue
-                    development and I look forward to all the things I can build and learn from.
-                </p>
-            
             </div>
             </div>
           </ReactFullpage.Wrapper>
