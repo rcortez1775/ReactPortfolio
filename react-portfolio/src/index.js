@@ -19,17 +19,17 @@ const Fullpage = () => (
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>
-            <div className="section page1">
+            <div className="section page1 fp-auto-height-responsive">
               <h2 className="name">Robert Cortez</h2>
-              <img className="icon" src={icon1} alt="logo" />
-              <img className="icon" src={icon2} alt="logo" />
-              <img className="icon" src={icon3} alt="logo" />
+              <img className="icon" src={icon1} alt="logo" onClick={() => window.open("https://www.linkedin.com/in/robert-cortez-bb5537a5/", "_blank")}/>
+              <img className="icon" src={icon2} alt="logo" onClick={() => window.open("https://github.com/rcortez1775", "_blank")}/>
+              <img className="icon" src={icon3} alt="logo" onClick={() => window.open("https://www.facebook.com/robert.a.cortez.9", "_blank")}/>
               <br></br>
               <span className="button" onClick={() => fullpageApi.moveSectionDown()}>
               <img className="vert-move" src={arrow} alt="logo" />
               </span>
             </div>
-            <div className="section page2">
+            <div className="section page2 fp-auto-height-responsive">
               <h2 className="experience">Experience</h2>
                     <div className="slide pokeslide" data-anchor="slide1"> 
                     <img src={poke} alt="ash" className="ash"></img>
@@ -76,7 +76,7 @@ const Fullpage = () => (
                     </div>
                     </div>
                 </div>
-            <div className="section page3">
+            <div className="section page3 fp-auto-height-responsive">
             <h2 className="resume">Resume</h2>
             <div className="qual">
                 <h4>Qualifications</h4>
@@ -93,7 +93,7 @@ const Fullpage = () => (
                     1.2001-6.2005</p>
             </div>
             </div>
-            <div className="section page4">
+            <div className="section page4 fp-auto-height-responsive">
             <h2 className="about">About Me</h2>
             <div className="aboutMe">
             <img src={me} alt="ash" className="me"></img>
