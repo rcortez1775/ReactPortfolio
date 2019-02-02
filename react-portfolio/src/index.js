@@ -13,6 +13,7 @@ import circle from '../src/assets/circleof.jpg';
 import earth from '../src/assets/earth.jpg';
 import list from '../src/assets/list.jpg';
 import me from '../src/assets/me.jpg';
+import Octocat from '../src/assets/Octocat.png';
 
 const Fullpage = () => (
     <ReactFullpage
@@ -32,47 +33,42 @@ const Fullpage = () => (
             <div className="section page2 fp-auto-height-responsive">
               <h2 className="experience">Experience</h2>
                     <div className="slide pokeslide" data-anchor="slide1"> 
-                    <img src={poke} alt="ash" className="ash"></img>
                     <div className="pokedex">
-                    <p className="title">The App: <span onClick={()=> window.open("https://mypokedex1.herokuapp.com/", "_blank")}>Click Me!</span></p>
-                    <p className="title">The Code: <span onClick={()=> window.open("https://github.com/rcortez1775/MyPokeDex", "_blank")}>Click Me!</span></p>
-                    <p className="title">Technologies: React, Node.js and Material-UI</p>
+                    <img src={poke} alt="ash" className="ash" onClick={()=> window.open("https://mypokedex1.herokuapp.com/", "_blank")}></img>
+                    <p className="title">React, Node.js and Material-UI</p>
+                    <img className="git" src={Octocat} alt="logo" onClick={() => window.open("https://github.com/rcortez1775/MyPokeDex", "_blank")}/>
                     </div>
                     </div>
 
 	                <div className="slide" data-anchor="slide2"> 
-                    <img src={codecard} alt="code" className="ash"></img>
+                    <img src={codecard} alt="code" className="ash" onClick={()=> window.open("https://my-code-card.herokuapp.com/", "_blank")}></img>
+                    <p className="title">MongoDB, Express, React, Node.js and Material-UI</p>
                     <div className="pokedex">
-                    <p className="title">The App: <span onClick={()=> window.open("https://my-code-card.herokuapp.com/", "_blank")}>Click Me!</span></p>
-                    <p className="title">The Code: <span onClick={()=> window.open("https://github.com/The-Gummy-Bears/CodeCards", "_blank")}>Click Me!</span></p>
-                    <p className="title">Technologies: MongoDB, Express, React, Node.js and Material-UI</p>
+                    <img className="git" src={Octocat} alt="logo" onClick={() => window.open("https://github.com/The-Gummy-Bears/CodeCards", "_blank")}/>
                     </div>
                     </div>
 
 	                <div className="slide" data-anchor="slide3">
-                    <img src={circle} alt="code" className="ash"></img>
+                    <img src={circle} alt="code" className="ash" onClick={()=> window.open("https://circle-of-friends.herokuapp.com/", "_blank")}></img>
+                    <p className="title">MySql, Express, Node.js, Javascript/jQuery and Materialize</p>
                     <div className="pokedex">
-                    <p className="title">The App: <span onClick={()=> window.open("https://circle-of-friends.herokuapp.com/", "_blank")}>Click Me!</span></p>
-                    <p className="title">The Code: <span onClick={()=> window.open("https://github.com/The-Real-Tardigrades/Contextual-Geolocation", "_blank")}>Click Me!</span></p>
-                    <p className="title">Technologies: MySql, Express, Node.js, Javascript/jQuery and Materialize</p>
+                    <img className="git" src={Octocat} alt="logo" onClick={() => window.open("https://github.com/The-Real-Tardigrades/Contextual-Geolocation", "_blank")}/>
                     </div>
                     </div>
 
 	                <div className="slide" data-anchor="slide4">
-                    <img src={list} alt="list" className="ash"></img>
+                    <img src={list} alt="list" className="ash" onClick={()=> window.open("https://rcortez1775.github.io/MyToDoList/", "_blank")}></img>
+                    <p className="title">Javascript</p>
                     <div className="pokedex">
-                    <p className="title">The App: <span onClick={()=> window.open("https://rcortez1775.github.io/MyToDoList/", "_blank")}>Click Me!</span></p>
-                    <p className="title">The Code: <span onClick={()=> window.open("https://github.com/rcortez1775/MyToDoList", "_blank")}>Click Me!</span></p>
-                    <p className="title">Technologies: Javascript</p>
+                    <img className="git" src={Octocat} alt="logo" onClick={() => window.open("https://github.com/rcortez1775/MyToDoList", "_blank")}/>
                     </div>
                     </div>
 
                     <div className="slide" data-anchor="slide5">
-                    <img src={earth} alt="earth" className="ash"></img>
+                    <img src={earth} alt="earth" className="ash" onClick={()=> window.open("https://rcortez1775.github.io/project1/", "_blank")}></img>
+                    <p className="title">Javascript and Google API</p>
                     <div className="pokedex">
-                    <p className="title">The App: <span onClick={()=> window.open("https://rcortez1775.github.io/project1/", "_blank")}>Click Me!</span></p>
-                    <p className="title">The Code: <span onClick={()=> window.open("https://github.com/rcortez1775/project1", "_blank")}>Click Me!</span></p>
-                    <p className="title">Technologies: Javascript and Google API</p>
+                    <img className="git" src={Octocat} alt="logo" onClick={() => window.open("https://github.com/rcortez1775/project1", "_blank")}/>
                     </div>
                     </div>
                 </div>
