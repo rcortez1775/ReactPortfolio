@@ -35,14 +35,14 @@ const Fullpage = () => (
                     <div className="slide pokeslide" data-anchor="slide1"> 
                     <div className="pokedex">
                     <img src={poke} alt="ash" className="ash" onClick={()=> window.open("https://mypokedex1.herokuapp.com/", "_blank")}></img>
-                    <p className="title">React, Node.js and Material-UI</p>
+                    <p className="title"><span className="sentence">Made with: </span>React, Node.js and Material-UI</p>
                     <img className="git" src={Octocat} alt="logo" onClick={() => window.open("https://github.com/rcortez1775/MyPokeDex", "_blank")}/>
                     </div>
                     </div>
 
 	                <div className="slide" data-anchor="slide2"> 
                     <img src={codecard} alt="code" className="ash" onClick={()=> window.open("https://my-code-card.herokuapp.com/", "_blank")}></img>
-                    <p className="title">MongoDB, Express, React, Node.js and Material-UI</p>
+                    <p className="title"><span className="sentence">Made with: </span>MongoDB, Express, React, Node.js and Material-UI</p>
                     <div className="pokedex">
                     <img className="git" src={Octocat} alt="logo" onClick={() => window.open("https://github.com/The-Gummy-Bears/CodeCards", "_blank")}/>
                     </div>
@@ -50,7 +50,7 @@ const Fullpage = () => (
 
 	                <div className="slide" data-anchor="slide3">
                     <img src={circle} alt="code" className="ash" onClick={()=> window.open("https://circle-of-friends.herokuapp.com/", "_blank")}></img>
-                    <p className="title">MySql, Express, Node.js, Javascript/jQuery and Materialize</p>
+                    <p className="title"><span className="sentence">Made with: </span>MySql, Express, Node.js, Javascript/jQuery and Materialize</p>
                     <div className="pokedex">
                     <img className="git" src={Octocat} alt="logo" onClick={() => window.open("https://github.com/The-Real-Tardigrades/Contextual-Geolocation", "_blank")}/>
                     </div>
@@ -58,7 +58,7 @@ const Fullpage = () => (
 
 	                <div className="slide" data-anchor="slide4">
                     <img src={list} alt="list" className="ash" onClick={()=> window.open("https://rcortez1775.github.io/MyToDoList/", "_blank")}></img>
-                    <p className="title">Javascript</p>
+                    <p className="title"><span className="sentence">Made with: </span>Javascript</p>
                     <div className="pokedex">
                     <img className="git" src={Octocat} alt="logo" onClick={() => window.open("https://github.com/rcortez1775/MyToDoList", "_blank")}/>
                     </div>
@@ -66,7 +66,7 @@ const Fullpage = () => (
 
                     <div className="slide" data-anchor="slide5">
                     <img src={earth} alt="earth" className="ash" onClick={()=> window.open("https://rcortez1775.github.io/project1/", "_blank")}></img>
-                    <p className="title">Javascript and Google API</p>
+                    <p className="title"><span className="sentence">Made with: </span>Javascript and Google API</p>
                     <div className="pokedex">
                     <img className="git" src={Octocat} alt="logo" onClick={() => window.open("https://github.com/rcortez1775/project1", "_blank")}/>
                     </div>
@@ -75,18 +75,17 @@ const Fullpage = () => (
             <div className="section page3 fp-auto-height-responsive">
             <h2 className="resume">Resume</h2>
             <div className="qual">
-                <h4>Qualifications</h4>
-                <p>Knowledge in JavaScript, HTML, CSS, React.js, Heroku, Git, Node.js and Databases. 
-                    Experience in object-oriented programming; developing, testing and debugging code; 
-                    designing interfaces; and administering systems and networks. Experience with Sales 
-                    and Operation procedures and systems.
+                <p><span className="sentence">Technical Skills: </span>
+                    ES6 Javascript, HTML(5), CSS(3), GIT, React.JS, Node.JS, Nightmare, Express, MySQL, JS, MongoDB, jQuery, Heroku, Firebase
                 </p>
-                <h4>Education & Military Service</h4>
-                <p>UC Irvine coding bootcamp Sabio coding pre-work CodeAcademy & Udemy
-                    Diamond Bar High School
-                    U.S. Marine Corps 08.2005-09.2007
-                    4.2018-7.2018 1.2018-2.2018 11.2017-Present
-                    1.2001-6.2005</p>
+                <p><span className="sentence">Education & Military Service: </span><span>UC Irvine coding bootcamp: 4.2018-7.2018</span><br></br><span>Sabio Pre-Work: 1.2018-2.2018</span><br></br> 
+                <span>CodeAcademy & Udemy: 11.2017-Present</span><br></br>
+                    <span>U.S. Marine Corps 08.2005-09.2009</span>
+                </p>
+                <p><span className="sentence">Professional Experience: </span>
+                <span>OnePeloton | Field Operations Supervisor | 08.2014-08.2017</span><br></br>
+                <span>24 Hour Fitness | Asst. Operations Manager | 2.2011-5.2014</span><br></br>
+                </p>
             </div>
             </div>
             <div className="section page4 fp-auto-height-responsive">
