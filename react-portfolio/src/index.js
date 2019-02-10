@@ -31,6 +31,15 @@ const Fullpage = () => (
               </span>
             </div>
             <div className="section page2 fp-auto-height-responsive">
+            <h2 className="about">About Me</h2>
+            <div className="aboutMe">
+            <img src={me} alt="ash" className="me"></img>
+            
+                <p>I'm Robert. A California based Developer with a passion to problem-solve. 
+                </p>
+            </div>
+            </div>
+            <div className="section page3 fp-auto-height-responsive">
               <h2 className="experience">Experience</h2>
                     <div className="slide pokeslide" data-anchor="slide1"> 
                     <div className="pokedex">
@@ -72,7 +81,7 @@ const Fullpage = () => (
                     </div>
                     </div>
                 </div>
-            <div className="section page3 fp-auto-height-responsive">
+            <div className="section page4 fp-auto-height-responsive">
             <h2 className="resume">Resume</h2>
             <div className="qual">
                 <p><span className="sentence">Technical Skills: </span>
@@ -85,33 +94,6 @@ const Fullpage = () => (
                 <p><span className="sentence">Professional Experience: </span>
                 <span>OnePeloton | Field Operations Supervisor | 08.2014-08.2017</span><br></br>
                 <span>24 Hour Fitness | Asst. Operations Manager | 2.2011-5.2014</span><br></br>
-                </p>
-            </div>
-            </div>
-            <div className="section page4 fp-auto-height-responsive">
-            <h2 className="about">About Me</h2>
-            <div className="aboutMe">
-            <img src={me} alt="ash" className="me"></img>
-            
-                <p>I'm Robert Cortez. Fellow Coder and United States Marine
-                    Corps Veteran. After working within a tech start-up
-                    in sales and operations, I've wanted to understand the "behind the scenes" of tech. That pushed me
-                    to
-                    complete free online courses but left me wanting a better grasp of these high level concepts. I
-                    wanted
-                    a more suited environment of like minded individuals to learn by creation. That's when I began my
-                    bootcamp
-                    search.
-                </p>
-                <p>Fast forward a year, I completed the Coding Bootcamp at
-                    the University of California Irvine. A challenging
-                    coding course that demanded constant self-education to push the boundaries of what I knew on any
-                    given
-                    day. Working in teams and led by amazing instructors, I was able to gain a deeper understanding of
-                    development
-                    and create some pretty awesome projects. Though my knowledge is a tiny seed buried deep beneath the
-                    many
-                    layers of information, with constant nurturing, it will soon sprout.
                 </p>
             </div>
             </div>
