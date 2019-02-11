@@ -44,7 +44,7 @@ const Fullpage = () => (
             </div>
             </div>
             <div className="section page3 fp-auto-height-responsive">
-            <h2 className="resume">Resume</h2>
+            <h2 className="resume">Skills & Work</h2>
             <div className="qual">
                 <p><span className="sentence">Technical Skills: </span>
                     ES6 Javascript, HTML(5), CSS(3), GIT, React.JS, Node.JS, Nightmare, Express, MySQL, JS, MongoDB, jQuery, Heroku, Firebase
@@ -60,7 +60,7 @@ const Fullpage = () => (
             </div>
             </div>
             <div className="section page4 fp-auto-height-responsive">
-              <h2 className="experience">Experience</h2>
+              <h2 className="experience">My Projects</h2>
                     <div className="slide pokeslide" data-anchor="slide1"> 
                     <div className="pokedex">
                     <img src={poke} alt="ash" className="ash" onClick={()=> window.open("https://mypokedex1.herokuapp.com/", "_blank")}></img>
