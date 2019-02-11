@@ -31,15 +31,35 @@ const Fullpage = () => (
               </span>
             </div>
             <div className="section page2 fp-auto-height-responsive">
-            <h2 className="about">About Me</h2>
+            <h2 className="about">Simply Me</h2>
             <div className="aboutMe">
             <img src={me} alt="ash" className="me"></img>
-            
-                <p>I'm Robert. A California based Developer with a passion to problem-solve. 
+                <p>I'm Robert. A Southern California based Developer with a passion to problem-solve and create. 
+                    I'm a Marine Corps Veteran with years of experience in Sales/Operations Management. In my previous role within a tech start-up, 
+                    I launched multiple showrooms and framed the execution of Field Operations in Los Angeles. 
+                    I experienced first hand how tech transformed a start-up 
+                    into a billion dollar business, turning my focus to Development. 
+                    The most rewarding and exciting aspect of Development is to take an idea and build it into a reality. So keep scrolling and check me out!
                 </p>
             </div>
             </div>
             <div className="section page3 fp-auto-height-responsive">
+            <h2 className="resume">Resume</h2>
+            <div className="qual">
+                <p><span className="sentence">Technical Skills: </span>
+                    ES6 Javascript, HTML(5), CSS(3), GIT, React.JS, Node.JS, Nightmare, Express, MySQL, JS, MongoDB, jQuery, Heroku, Firebase
+                </p>
+                <p><span className="sentence">Education & Military Service: </span><span>UC Irvine coding bootcamp: 4.2018-7.2018</span><br></br><span>Sabio Pre-Work: 1.2018-2.2018</span><br></br> 
+                <span>CodeAcademy & Udemy: 11.2017-Present</span><br></br>
+                    <span>U.S. Marine Corps 08.2005-09.2009</span>
+                </p>
+                <p><span className="sentence">Professional Experience: </span>
+                <span>OnePeloton | Field Operations Supervisor | 08.2014-08.2017</span><br></br>
+                <span>24 Hour Fitness | Asst. Operations Manager | 2.2011-5.2014</span><br></br>
+                </p>
+            </div>
+            </div>
+            <div className="section page4 fp-auto-height-responsive">
               <h2 className="experience">Experience</h2>
                     <div className="slide pokeslide" data-anchor="slide1"> 
                     <div className="pokedex">
@@ -81,22 +101,6 @@ const Fullpage = () => (
                     </div>
                     </div>
                 </div>
-            <div className="section page4 fp-auto-height-responsive">
-            <h2 className="resume">Resume</h2>
-            <div className="qual">
-                <p><span className="sentence">Technical Skills: </span>
-                    ES6 Javascript, HTML(5), CSS(3), GIT, React.JS, Node.JS, Nightmare, Express, MySQL, JS, MongoDB, jQuery, Heroku, Firebase
-                </p>
-                <p><span className="sentence">Education & Military Service: </span><span>UC Irvine coding bootcamp: 4.2018-7.2018</span><br></br><span>Sabio Pre-Work: 1.2018-2.2018</span><br></br> 
-                <span>CodeAcademy & Udemy: 11.2017-Present</span><br></br>
-                    <span>U.S. Marine Corps 08.2005-09.2009</span>
-                </p>
-                <p><span className="sentence">Professional Experience: </span>
-                <span>OnePeloton | Field Operations Supervisor | 08.2014-08.2017</span><br></br>
-                <span>24 Hour Fitness | Asst. Operations Manager | 2.2011-5.2014</span><br></br>
-                </p>
-            </div>
-            </div>
           </ReactFullpage.Wrapper>
         );
       }}
