@@ -14,6 +14,7 @@ import earth from '../src/assets/earth.jpg';
 import list from '../src/assets/list.jpg';
 import me from '../src/assets/me.jpg';
 import Octocat from '../src/assets/Octocat.png';
+import pup from '../src/assets/keeppup.jpg';
 
 const Fullpage = () => (
     <ReactFullpage
@@ -61,6 +62,15 @@ const Fullpage = () => (
             </div>
             <div className="section page4 fp-auto-height-responsive">
               <h2 className="experience">My Projects</h2>
+
+              <div className="slide pokeslide" data-anchor="slide1"> 
+                    <div className="pokedex">
+                    <img src={pup} alt="ash" className="ash" onClick={()=> window.open("https://rcortez1775.github.io/eBoba/", "_blank")}></img>
+                    <p className="title"><span className="sentence">Made with: </span>Javascript and Material-UI</p>
+                    <img className="git" src={Octocat} alt="logo" onClick={() => window.open("https://github.com/rcortez1775/eBoba", "_blank")}/>
+                    </div>
+                    </div>
+
                     <div className="slide pokeslide" data-anchor="slide1"> 
                     <div className="pokedex">
                     <img src={poke} alt="ash" className="ash" onClick={()=> window.open("https://mypokedex1.herokuapp.com/", "_blank")}></img>
